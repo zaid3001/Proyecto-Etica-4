@@ -1019,8 +1019,12 @@ ol {
 
 .footer-right-pic {
 	position: absolute;
-	right: 50px;
+	right: -5px;
 	bottom: 19px;
+}
+
+.footer-left-pic, .footer-right-pic{
+	max-width: 255px;
 }
 
 .footer-menu {
